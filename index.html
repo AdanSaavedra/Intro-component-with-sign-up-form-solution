@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <style>
+      .icon {
+        background: url(./images/icon-error.svg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+      }
+    </style>
+
+    <title>Frontend Mentor | Intro component with sign up form</title>
+  </head>
+  <body>
+    <div class="textContainer">
+      <h1>Learn to code by watching others</h1>
+      <p>
+        See how experienced developers solve problems in real-time. Watching
+        scripted tutorials is great, but understanding how developers thinks is
+        invaluable.
+      </p>
+    </div>
+    <div class="formContainer">
+      <p class="formTitle">
+        <span>Try it free 7 days</span> then $20/mo. thereafter
+      </p>
+      <form action="">
+        <i class="icon"></i>
+        <input
+          type="text"
+          name="firstName"
+          id="inpName"
+          class="input"
+          required
+          placeholder="First Name"
+        />
+        <p id="error">First Name cannot be empty</p>
+        <i class="icon"></i>
+        <input
+          type="text"
+          name="lastName"
+          id="inpName"
+          class="input"
+          required
+          placeholder="Last Name"
+        />
+        <p id="error">Last Name cannot be empty</p>
+        <i class="icon"></i>
+        <input
+          type="email"
+          name="email"
+          id="inpName"
+          class="input"
+          required
+          placeholder="Email Address"
+        />
+        <p id="error">Looks like this is not an email</p>
+        <i class="icon"></i>
+        <input
+          type="password"
+          name="password"
+          id="inpName"
+          class="input"
+          required
+          placeholder="Password"
+        />
+        <p id="error">Password cannot be empty</p>
+        <button>CLAIM YOUR FREE TRIAL</button>
+        <p>
+          By clicking the button, you are agreeing to our
+          <span>Terms and Services</span>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>
