@@ -15,14 +15,30 @@ body{
     align-items: center;
     background-image: url(./images/bg-intro-desktop.png);
     background-color: var(--Red);
+    justify-content: center;
+    gap: 10vw;
 }
 .textContainer{
     color: #ffffff;
+    width: 36vw;
 }
 
 .textTitle{
-
+    margin: 0 10px 0 0;
+    font-size: 50px;
+    font-weight: 600;
 }
+.textParagraph{
+    
+}
+.formContainer{
+    width: 30vw;
+}
+.registerForm{
+    display: flex;
+    flex-direction: column;
+}
+
 
 
 
@@ -40,5 +56,9 @@ body{
     display: inline-block;
     height: 20px;
     width: 20px;
+    display: none;
+}
+#error{
+    display: none;
 }
     
