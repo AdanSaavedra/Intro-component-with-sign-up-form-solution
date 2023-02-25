@@ -16,6 +16,12 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Frontend Mentor | Intro component with sign up form</title>
   </head>
@@ -38,7 +44,7 @@
           type="text"
           name="firstName"
           id="inpName"
-          class="input"
+          class="input1"
           required
           placeholder="First Name"
         />
@@ -73,8 +79,8 @@
           placeholder="Password"
         />
         <p id="error">Password cannot be empty</p>
-        <button>CLAIM YOUR FREE TRIAL</button>
-        <p>
+        <button id="btn" type="submit">CLAIM YOUR FREE TRIAL</button>
+        <p class="terms">
           By clicking the button, you are agreeing to our
           <span>Terms and Services</span>
         </p>

@@ -16,11 +16,11 @@ body{
     background-image: url(./images/bg-intro-desktop.png);
     background-color: var(--Red);
     justify-content: center;
-    gap: 10vw;
+    gap: 80px;
 }
 .textContainer{
     color: #ffffff;
-    width: 36vw;
+    width:498px;
 }
 
 .textTitle{
@@ -32,14 +32,79 @@ body{
     
 }
 .formContainer{
-    width: 30vw;
+    width: 460px;
+}
+
+.formTitle{
+    background-color: var(--Blue);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0px 6px 0px 0px rgba(0,0,0,0.16);
+    border-radius: 6px;
+    font-weight: 200;
+}
+.formTitle span{
+    font-weight: 500;
 }
 .registerForm{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    box-shadow: 0px 6px 0px 0px rgba(0,0,0,0.16);
+    border-radius: 6px;
+    height: 428px;
 }
-
-
+.input1{
+    margin-top: 30px;
+    width: 374px;
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid var(--Grayish-Blue);
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.input{
+    width: 374px;
+    margin-top: 20px;
+    height: 50px;
+    border-radius: 6px;
+    border: 1px solid var(--Grayish-Blue);
+    padding-left: 20px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.input::placeholder, .input1::placeholder{
+    font-weight: 500;
+}
+.input:focus, .input1:focus{
+    outline: none;
+    border: 1px solid var(--Blue);
+}
+#btn{
+    width: 374px;
+    margin-top: 20px;
+    height: 50px;
+    box-shadow: 0px 6px 0px 0px rgba(0,0,0,0.16);
+    border-radius: 6px;
+    border: none;
+    background-color: var(--Green);
+    color: #ffffff;
+    font-weight: 600;
+}
+.terms{
+    font-size: 10px;
+    text-align: center;
+    color: var(--Grayish-Blue);
+    margin: 20px 0 0;
+}
+.terms span{
+    color: var(--Red);
+    font-weight: 600;
+    
+}
 
 
 
