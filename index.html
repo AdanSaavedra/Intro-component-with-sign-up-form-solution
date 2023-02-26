@@ -38,53 +38,68 @@
       <p class="formTitle">
         <span>Try it free 7 days</span> then $20/mo. thereafter
       </p>
-      <form class="registerForm">
-        <i class="icon"></i>
-        <input
-          type="text"
-          name="firstName"
-          id="inpName"
-          class="input1"
-          required
-          placeholder="First Name"
-        />
-        <p id="error">First Name cannot be empty</p>
-        <i class="icon"></i>
-        <input
-          type="text"
-          name="lastName"
-          id="inpName"
-          class="input"
-          required
-          placeholder="Last Name"
-        />
-        <p id="error">Last Name cannot be empty</p>
-        <i class="icon"></i>
-        <input
-          type="email"
-          name="email"
-          id="inpName"
-          class="input"
-          required
-          placeholder="Email Address"
-        />
-        <p id="error">Looks like this is not an email</p>
-        <i class="icon"></i>
-        <input
-          type="password"
-          name="password"
-          id="inpName"
-          class="input"
-          required
-          placeholder="Password"
-        />
-        <p id="error">Password cannot be empty</p>
-        <button id="btn" type="submit">CLAIM YOUR FREE TRIAL</button>
-        <p class="terms">
-          By clicking the button, you are agreeing to our
-          <span>Terms and Services</span>
-        </p>
+      <form action="" class="registerForm">
+        <div class="divs div1">
+          <i class="icon icon1"></i>
+          <input
+            type="text"
+            id="firstName"
+            name="firstName"
+            class="input1"
+            placeholder="First Name"
+            required
+          />
+          <p class="error errorName">First Name cannot be empty</p>
+        </div>
+
+        <div class="divs div2">
+          <i class="icon icon2"></i>
+          <input
+            type="text"
+            id="lastName"
+            name="lastName"
+            class="input"
+            placeholder="Last Name"
+            required
+          />
+          <p class="error errorLastname">Last Name cannot be empty</p>
+        </div>
+
+        <div class="divs div3">
+          <i class="icon icon3"></i>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            class="input"
+            required
+            placeholder="Email Address"
+          />
+          <p class="error errorEmail">Looks like this is not an email</p>
+        </div>
+
+        <div class="divs div4">
+          <i class="icon icon4"></i>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            class="input"
+            required
+            placeholder="Password"
+          />
+          <p class="error errorPass">Password cannot be empty</p>
+        </div>
+
+        <div class="divs div5">
+          <button id="btn" class="btn">CLAIM YOUR FREE TRIAL</button>
+          <p class="terms">
+            By clicking the button, you are agreeing to our
+            <span>Terms and Services</span>
+          </p>
+        </div>
       </form>
     </div>
+    <script src="./index.js"></script>
   </body>
 </html>

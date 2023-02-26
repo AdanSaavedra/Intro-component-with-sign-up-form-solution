@@ -54,10 +54,10 @@ body{
     background-color: #ffffff;
     box-shadow: 0px 6px 0px 0px rgba(0,0,0,0.16);
     border-radius: 6px;
-    height: 428px;
+    height: 438px;
 }
 .input1{
-    margin-top: 30px;
+    
     width: 374px;
     height: 50px;
     border-radius: 6px;
@@ -68,13 +68,14 @@ body{
 }
 .input{
     width: 374px;
-    margin-top: 20px;
+    
     height: 50px;
     border-radius: 6px;
     border: 1px solid var(--Grayish-Blue);
     padding-left: 20px;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+
 }
 .input::placeholder, .input1::placeholder{
     font-weight: 500;
@@ -83,9 +84,8 @@ body{
     outline: none;
     border: 1px solid var(--Blue);
 }
-#btn{
+.btn{
     width: 374px;
-    margin-top: 20px;
     height: 50px;
     box-shadow: 0px 6px 0px 0px rgba(0,0,0,0.16);
     border-radius: 6px;
@@ -93,6 +93,10 @@ body{
     background-color: var(--Green);
     color: #ffffff;
     font-weight: 600;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: hsl(154, 84%, 66%);
 }
 .terms{
     font-size: 10px;
@@ -107,9 +111,18 @@ body{
 }
 
 
+.redd::-webkit-input-placeholder{
+    color: var(--Red);
+}
 
 
 
+.divs{
+    height: 70px;
+}
+.div1{
+    margin-top: 40px;
+}
 
 
 
@@ -119,11 +132,20 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
-    height: 20px;
-    width: 20px;
+    height: 30px;
+    width: 30px;
     display: none;
+    position: relative;
+    top: 38px;
+    left: 320px;
 }
-#error{
+.error{
     display: none;
+    color: var(--Red);
+    font-size: x-small;
+    margin: 6px 0 0;
+    text-align:right;
+    width: 370px;
+    font-style: italic;
 }
     
