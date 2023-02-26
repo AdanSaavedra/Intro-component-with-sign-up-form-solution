@@ -109,24 +109,15 @@ body{
     font-weight: 600;
     
 }
-
-
 .redd::-webkit-input-placeholder{
     color: var(--Red);
 }
-
-
-
 .divs{
     height: 70px;
 }
 .div1{
     margin-top: 40px;
 }
-
-
-
-
 .icon {
     background: url(./images/icon-error.svg);
     background-repeat: no-repeat;
@@ -148,4 +139,53 @@ body{
     width: 370px;
     font-style: italic;
 }
-    
+@media (max-width: 375px){
+    body{
+        flex-direction: column;
+        justify-content: start;
+        gap: 30px;
+        height: 1000px;
+    }
+    .textContainer{
+        width: 100vw;
+        margin-top: 80px;
+    }
+    .textTitle{
+        margin: 0;
+        text-align: center;
+        font-size: x-large;
+        padding: 0 40px;
+    }
+    .textParagraph{
+        text-align: center;
+        padding: 0 24px;
+    }
+    .formContainer{
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .formTitle{
+        width: 328px;
+        padding: 20px 50px;
+        box-sizing: border-box;
+    }
+    .registerForm{
+        width: 328px;
+        
+    }
+    .input1, .input, .btn{
+        width: 280px;
+    }
+    .btn{
+        align-self: center;
+    }
+    .div5{
+        display: contents;
+    }
+    .terms{
+        width: 228px;
+    }
+}
