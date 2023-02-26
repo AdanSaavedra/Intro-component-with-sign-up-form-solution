@@ -26,80 +26,82 @@
     <title>Frontend Mentor | Intro component with sign up form</title>
   </head>
   <body>
-    <div class="textContainer">
-      <h1 class="textTitle">Learn to code by watching others</h1>
-      <p class="textParagraph">
-        See how experienced developers solve problems in real-time. Watching
-        scripted tutorials is great, but understanding how developers thinks is
-        invaluable.
-      </p>
-    </div>
-    <div class="formContainer">
-      <p class="formTitle">
-        <span>Try it free 7 days</span> then $20/mo. thereafter
-      </p>
-      <form action="" class="registerForm">
-        <div class="divs div1">
-          <i class="icon icon1"></i>
-          <input
-            type="text"
-            id="firstName"
-            name="firstName"
-            class="input1"
-            placeholder="First Name"
-            required
-          />
-          <p class="error errorName">First Name cannot be empty</p>
-        </div>
+    <main>
+      <div class="textContainer">
+        <h1 class="textTitle">Learn to code by watching others</h1>
+        <p class="textParagraph">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers thinks
+          is invaluable.
+        </p>
+      </div>
+      <div class="formContainer">
+        <p class="formTitle">
+          <span>Try it free 7 days</span> then $20/mo. thereafter
+        </p>
+        <form class="registerForm">
+          <div class="divs div1">
+            <i class="icon icon1"></i>
+            <input
+              type="text"
+              id="firstName"
+              name="firstName"
+              class="input1"
+              placeholder="First Name"
+              required
+            />
+            <p class="error errorName">First Name cannot be empty</p>
+          </div>
 
-        <div class="divs div2">
-          <i class="icon icon2"></i>
-          <input
-            type="text"
-            id="lastName"
-            name="lastName"
-            class="input"
-            placeholder="Last Name"
-            required
-          />
-          <p class="error errorLastname">Last Name cannot be empty</p>
-        </div>
+          <div class="divs div2">
+            <i class="icon icon2"></i>
+            <input
+              type="text"
+              id="lastName"
+              name="lastName"
+              class="input"
+              placeholder="Last Name"
+              required
+            />
+            <p class="error errorLastname">Last Name cannot be empty</p>
+          </div>
 
-        <div class="divs div3">
-          <i class="icon icon3"></i>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            class="input"
-            required
-            placeholder="Email Address"
-          />
-          <p class="error errorEmail">Looks like this is not an email</p>
-        </div>
+          <div class="divs div3">
+            <i class="icon icon3"></i>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="input"
+              required
+              placeholder="Email Address"
+            />
+            <p class="error errorEmail">Looks like this is not an email</p>
+          </div>
 
-        <div class="divs div4">
-          <i class="icon icon4"></i>
-          <input
-            type="password"
-            name="password"
-            id="password"
-            class="input"
-            required
-            placeholder="Password"
-          />
-          <p class="error errorPass">Password cannot be empty</p>
-        </div>
+          <div class="divs div4">
+            <i class="icon icon4"></i>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              class="input"
+              required
+              placeholder="Password"
+            />
+            <p class="error errorPass">Password cannot be empty</p>
+          </div>
 
-        <div class="divs div5">
-          <button id="btn" class="btn">CLAIM YOUR FREE TRIAL</button>
-          <p class="terms">
-            By clicking the button, you are agreeing to our
-            <span>Terms and Services</span>
-          </p>
-        </div>
-      </form>
-    </div>
+          <div class="divs div5">
+            <button id="btn" class="btn">CLAIM YOUR FREE TRIAL</button>
+            <p class="terms">
+              By clicking the button, you are agreeing to our
+              <span>Terms and Services</span>
+            </p>
+          </div>
+        </form>
+      </div>
+    </main>
     <script src="./index.js"></script>
   </body>
 </html>

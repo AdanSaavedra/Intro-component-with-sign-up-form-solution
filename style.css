@@ -5,7 +5,7 @@
     --Dark-Blue: hsl(249, 10%, 26%);
     --Grayish-Blue: hsl(246, 25%, 77%);
 }
-body{
+body, main{
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     margin: 0;
@@ -140,7 +140,7 @@ body{
     font-style: italic;
 }
 @media (max-width: 375px){
-    body{
+    body,main{
         flex-direction: column;
         justify-content: start;
         gap: 30px;
